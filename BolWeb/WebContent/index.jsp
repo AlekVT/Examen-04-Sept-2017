@@ -29,5 +29,11 @@ import="java.util.List"
 	<%
 		}
 	%>
+	
+	<form method="post" action="result.jsp">
+		<label for="search">Zoek: </label>
+		<input type="text" id="search" name="search">
+		<input type="submit" value="ga">
+	</form>
 </body>
 </html>

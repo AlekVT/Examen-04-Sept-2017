@@ -14,6 +14,7 @@ public class Server {
 	     // Then attach it to the local host  
 	     component.getDefaultHost().attach("/bol", BolResource.class);
 	     component.getDefaultHost().attach("/bol/add", BolResource.class);
+	     component.getDefaultHost().attach("/bol/search", BolFindResource.class);
  
 	     // Now, let's start the component!  
 	     // Note that the HTTP server connector is also automatically started.  

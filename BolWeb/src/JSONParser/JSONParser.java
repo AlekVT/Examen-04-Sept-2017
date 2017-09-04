@@ -39,7 +39,13 @@ public class JSONParser {
 		return this.getProducts();
 	}
 	
-	public List<Product> findProducts(String query) {
+	public Product findProducts(String query) throws JsonSyntaxException, JsonIOException, FileNotFoundException {
+		List<Product> prods = this.getProducts();
+		for (Product p : prods) {
+			if (p.getName().equals(query)) {
+				return p;
+			}
+		}
 		return null;
 	}
 }
