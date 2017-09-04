@@ -14,6 +14,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/RESTElloWorld/org.restlet.jar"/>
-	<classpathentry kind="lib" path="/home/alek/workspace/BolWeb/json-20140107.jar"/>
+	<classpathentry kind="lib" path="/home/alek/workspace/BolWeb/gson-2.6.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

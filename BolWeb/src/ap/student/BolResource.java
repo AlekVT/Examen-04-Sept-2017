@@ -7,16 +7,18 @@ import org.restlet.resource.Post;
 import org.restlet.resource.ServerResource;
 
 import JSONParser.JSONParser;
+import entities.Product;
 
 public class BolResource extends ServerResource{
 	@Get
-	public List<String[]> getProducts() {
+	public List<Product> getProducts() {
 		JSONParser jsonp = new JSONParser();
 		return jsonp.getProducts();
 	}
 	@Post
-	public List<String[]> addProduct(String[] product) {
+	public List<Product> addProduct(Product product) {
 		JSONParser jsonp = new JSONParser();
+		System.out.println("getting...");
 		return jsonp.addProduct(product);
 	}
 }

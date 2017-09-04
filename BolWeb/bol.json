@@ -1,1 +1,12 @@
-{}
+{ "products": [
+	{
+		"name" : "Laptop",
+		"producer": "Dell",
+		"price": "599.99"
+	},
+	{
+		"name" : "Gun",
+		"producer" : "H&K",
+		"price": "59.98"
+	}
+]}
